@@ -1,0 +1,5 @@
+export const AUTHORIZING = 'VK_AUTHORIZING';
+
+export const AUTHORIZED = 'VK_AUTHORIZED';
+
+export const AUTHORIZE_ERROR = 'VK_AUTHORIZE_ERROR';

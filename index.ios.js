@@ -1,15 +1,8 @@
 'use strict';
 
-import React, {
-  AppRegistry
-} from 'react-native';
+import React from 'react';
+import { AppRegistry } from 'react-native';
 
-import App from './app/containers/app.js';
+import Root from './app/containers/Root'
 
-const vkPlayer = () => {
-  return (
-    <App />
-  );
-}
-
-AppRegistry.registerComponent('vkMusic', () => App);
+AppRegistry.registerComponent('vkMusic', () => Root);

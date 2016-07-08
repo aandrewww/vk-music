@@ -1,5 +1,13 @@
-import router from './router';
+import {combineReducers} from 'redux';
 
-export {
-  router
-};
+import router from './router';
+import authorize from './authorize';
+import audio from './audio';
+import player from './player';
+
+export default combineReducers({
+  router,
+  authorize,
+  audio,
+  player
+});

@@ -9,8 +9,11 @@
     "lodash": "^4.13.1",
     "react": "15.1.0",
     "react-native": "0.28.0",
+    "react-native-ios-network-audio": "0.0.8",
     "react-native-router-flux": "^3.30.3",
+    "react-native-sound": "^0.8.3",
     "react-redux": "^4.4.5",
+    "react-timer-mixin": "^0.13.3",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0"
   }
